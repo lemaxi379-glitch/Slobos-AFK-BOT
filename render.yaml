@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: slobos-afk-bot
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
